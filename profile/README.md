@@ -8,9 +8,9 @@ Liturgical App is a set of components that can be used to find information about
 
 So far, we are working on the following components:
 
-* [calendar](https://github.com/liturgical-app/calendar), a Python library to calculate the dates and colours
-* [calendar-api](https://github.com/liturgical-app/calendar-api), a small API server to return data from the library
-* [webapp](https://github.com/liturgical-app/webapp), a simple web app to display liturgical colours
+* [liturgical-calendar](https://github.com/liturgical-app/liturgical-calendar), a Python library to calculate the dates and colours
+* [liturgical-api](https://github.com/liturgical-app/liturgical-api), a small API server to return data from the library
+* [liturgical-app](https://github.com/liturgical-app/liturgical-app), a simple web app to display liturgical colours
 * [charts](https://github.com/liturgical-app/charts), Helm charts to install these components on Kubernetes
 
 In the future we hope to work on:
