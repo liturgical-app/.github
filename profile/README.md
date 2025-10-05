@@ -6,22 +6,28 @@ Liturgical App is a set of components that can be used to find information about
 [liturgical colours](https://en.wikipedia.org/wiki/Liturgical_colours), and
 [saints' days](https://en.wikipedia.org/wiki/Calendar_of_saints_(Church_of_England)).
 
-So far, we are working on the following components:
+Most people will probably want to go straight to the [Liturgical App](https://liturgical.uk).
+
+![](https://avatars.githubusercontent.com/u/166313741?s=400&u=88d03d4586cc210beb6d479c0d8d4f342e44c55a&v=4)
+
+### Components
+
+If you're interested in the Liturgical project, read on! So far, we have completed the following components:
 
 * [liturgical-calendar](https://github.com/liturgical-app/liturgical-calendar), a Python library to calculate the dates and colours
 * [liturgical-api](https://github.com/liturgical-app/liturgical-api), a small API server to return data from the library
-* [liturgical-app](https://github.com/liturgical-app/liturgical-app), a simple web app to display liturgical colours
+* [liturgical-app](https://github.com/liturgical-app/liturgical-app), a simple web app to display liturgical colours from the API
 * [charts](https://github.com/liturgical-app/charts), Helm charts to install these components on Kubernetes
 
 In the future we hope to work on:
 
-* a Wordpress plugin to display liturgical colours on Wordpress-based sites
+* a Wordpress plugin to display liturgical colours on Wordpress-based sites, which many churches use
 * an Alexa skill so people can ask their Amazon Echo for liturgical information
-* a Home Assistant integration to display liturgical colours on RGB lighting
+* a Home Assistant integration to display liturgical colours on smart lighting
 
 ### Background
 
-Some churches use a special church calendar. Days and seasons within the year
+Most churches use a special church calendar. Days and seasons within the year
 may be either "fasts" (solemn times) or "feasts" (joyful times). The year is
 structured around the greatest feast in the calendar, the festival of the
 Resurrection of Jesus, known as Easter, and the second greatest feast, the
@@ -52,5 +58,5 @@ Other days are green.
 
 ### People
 
-We are two volunteers in the UK, working on this project for fun and in the hope it will be useful to someone. We will gladly accept offers of help, and new ideas. Please drop us an issue in one of the projects.
+We are two volunteers in the UK, working on this project for fun and in the hope it will be interesting or useful to someone. We will gladly accept offers of help, and new ideas. Please drop us an issue in one of the repositories.
 
